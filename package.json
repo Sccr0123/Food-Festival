@@ -1,0 +1,23 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "Week 19 In-Class Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sccr0123/Food-Festival.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sccr0123/Food-Festival/issues"
+  },
+  "homepage": "https://github.com/Sccr0123/Food-Festival#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "popper": "^1.0.1"
+  }
+}
