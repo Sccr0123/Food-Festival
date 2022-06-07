@@ -1,23 +1,25 @@
 {
-  "name": "food-festival",
+  "name": "module-19-project",
   "version": "1.0.0",
-  "description": "Week 19 In-Class Assignment",
-  "main": "index.js",
+  "description": "",
+  "main": "assets/js/script.js",
   "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sccr0123/Food-Festival.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sccr0123/Food-Festival/issues"
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.4.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   },
-  "homepage": "https://github.com/Sccr0123/Food-Festival#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "popper": "^1.0.1"
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
   }
 }
